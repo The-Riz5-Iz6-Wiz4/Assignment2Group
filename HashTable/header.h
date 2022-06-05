@@ -23,4 +23,6 @@ class Hashing {
       void addItem(string word, string def);
       void printWord(int index);
       void searchWord(string word);
+      void bucketMax();
+      void bucketMin();
 };
