@@ -7,7 +7,7 @@ using namespace std;
 class Hashing {
 
     private:
-      static const int hashtableSize = 629;
+      static const int hashtableSize = 631;
 
       typedef struct word {
           string key;
@@ -22,5 +22,5 @@ class Hashing {
       Hashing();
       void addItem(string word, string def);
       void printWord(int index);
-      void searchWord(string word)
+      void searchWord(string word);
 };
