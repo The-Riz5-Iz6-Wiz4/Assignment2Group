@@ -11,13 +11,13 @@ int shellSort(int arr[], int n)
             int temporary = arr[i];
 
             int j;
-            for (j = i; j >= gap && arr[j - gap] > temp; j -= gap) {
+            for (j = i; j >= gap && arr[j - gap] > temporary; j -= gap) {
                 arr[j] = arr[j - gap];
 
-            arr[j] = temp;
+            arr[j] = temporary;
             }
         }
     }
     return 0;
-}
+};
 
